@@ -2,8 +2,9 @@ import Pokemon from "./Models/Pokemon.js";
 
 let _state = {
   pokemonsFound: [],
-  pokemons: [],
-  pokemonsOwned: []
+  pokemons: {},
+  pokemonsOwned: [],
+  selectedOwned: {}
 };
 
 /** Collection of listeners to be called based on keyed state changes
@@ -12,7 +13,8 @@ let _state = {
 let _listeners = {
   pokemonsFound: [],
   pokemons: [],
-  pokemonsOwned: []
+  pokemonsOwned: [],
+  selectedOwned: []
 };
 
 //NOTE You should not need to change the code from this point down

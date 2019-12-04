@@ -3,6 +3,66 @@ header, footer {
   min-height: 1em;
 }
 
+.bangers-font {
+  font-family: 'Bangers', cursive;
+}
+
+.solway-font {
+  font-family: 'Solway', serif;
+}
+
 main {
+  background: url("https://i.pinimg.com/originals/07/ae/06/07ae061ca308afda1fabe0a220e13357.jpg") no-repeat center;
+  background-size: cover;
   min-height: 75vh;
+}
+
+.arrow-icon {
+  cursor: pointer;
+}
+
+.titles {
+  background-color: rgb(235, 235, 235);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.list-group-item {
+  padding: .5rem .5rem;
+}
+
+.card {
+  max-width: 15rem;
+}
+
+.wild-pokemon-img {
+  background: url("https://i.pinimg.com/originals/b9/4c/c9/b94cc9753e674518e4bb3ef1bc3fd9f3.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.caught-pokemon-img {
+  background: url("https://cdn.thingiverse.com/renders/30/36/66/1b/d4/ball_picture_preview_featured.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.pokeball {
+  cursor: pointer;
+  height: 3em;
+  width: 3em;
+}
+
+.closed-pokeball {
+  background: url("https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c31e.png") no-repeat center;
+  background-size: cover;
+}
+
+.open-pokeball {
+  background: url("https://pngriver.com/wp-content/uploads/2018/03/Download-Pokeball-PNG-Transparent-Image-For-Designing-Purpose-1000x563.png") no-repeat center;
+  background-size: cover;
+}
+
+.pokeball-div p {
+  font-size: 0.8em;
+  font-weight: bold;
+  margin: 0;
 }

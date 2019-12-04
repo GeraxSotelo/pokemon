@@ -6,10 +6,10 @@ export default class PokemonsFound {
 
   get Template() {
     return `
-    <li class="list-group-item d-flex justify-content-between align-items-center" onclick="app.pokemonsController.getInfoAsync('${this.name}')">
+    <li class="list-group-item text-center" onclick="app.pokemonsController.getInfoAsync('${this.name}')">
       ${this.name}
-      <span class="badge badge-primary badge-pill">Catch</span>
     </li>
       `
   }
+
 }
