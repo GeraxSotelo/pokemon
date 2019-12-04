@@ -1,0 +1,8 @@
+header, footer {
+  background-color: azure;
+  min-height: 1em;
+}
+
+main {
+  min-height: 75vh;
+}
